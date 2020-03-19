@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a9e865a77ba3547b6a3dc836403ad2, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  m_model: {fileID: -927199367670048503, guid: 89ace840990da4e4881cc5859e504cc7, type: 3}
+  m_verticalOffset: -0.15
+  m_depthOffset: 0.4
+  m_automatic: 0
+  m_fireRate: 3
+  m_recoilCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 26.26834
+      outSlope: 26.26834
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.0875435
+    - serializedVersion: 3
+      time: 0.06576814
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.35778522
+      value: 0.1160854
+      inSlope: -2.4112232
+      outSlope: -2.4112232
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.15762597
+    - serializedVersion: 3
+      time: 0.70287526
+      value: -0.004290674
+      inSlope: 0.19931518
+      outSlope: 0.19931518
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.35961616
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_recoilAngles: 60
+  m_recoilMovement: 0.1
